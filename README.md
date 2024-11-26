@@ -15,3 +15,5 @@ Then, use terminal to run players.py by typing 'python players.py 555X PlayerX',
 
 From the player view, they can enter the commands /dm and /public. With /public, they can then enter any message they like and this message will be logged in public_chat.py and sent to the other players. With /dm, they'll be asked to select the player port they want to talk to. For the recipient to respond, they will also have to enter /dm and initiate contact with the first messenger. 
 
+At any point during the prompt template, you can enter '/back' to exit the DM and Public chat prompts.
+
