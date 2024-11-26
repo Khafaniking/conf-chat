@@ -54,7 +54,7 @@ def command_handler():
         command = input(f"{player_name}, enter command (/dm, /public): ").strip()
 
         if command == "/dm":
-            target_port = input("Enter the target player's port for DM: ").strip()
+            target_port = input("Enter the target player's port to DM: ").strip()
             dm_socket = context.socket(zmq.REQ)
             dm_socket.connect(f"tcp://localhost:{int(target_port) + 1000}")
 
